@@ -1,0 +1,33 @@
+{
+  "auth": {
+    "sagarchatpoc5eebcfa6": {
+      "service": "Cognito",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [],
+      "customAuth": false
+    }
+  },
+  "api": {
+    "sagarchatapi": {
+      "service": "AppSync",
+      "providerPlugin": "awscloudformation",
+      "output": {
+        "authConfig": {
+          "defaultAuthentication": {
+            "authenticationType": "AMAZON_COGNITO_USER_POOLS",
+            "userPoolConfig": {
+              "userPoolId": "authsagarchatpoc5eebcfa6"
+            }
+          },
+          "additionalAuthenticationProviders": []
+        }
+      }
+    }
+  },
+  "storage": {
+    "chatAssets": {
+      "service": "S3",
+      "providerPlugin": "awscloudformation"
+    }
+  }
+}

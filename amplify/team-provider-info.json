@@ -1,0 +1,20 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-sagarchatpoc-dev-171400-authRole",
+      "UnauthRoleArn": "arn:aws:iam::553150330102:role/amplify-sagarchatpoc-dev-171400-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::553150330102:role/amplify-sagarchatpoc-dev-171400-authRole",
+      "Region": "eu-west-2",
+      "DeploymentBucketName": "amplify-sagarchatpoc-dev-171400-deployment",
+      "UnauthRoleName": "amplify-sagarchatpoc-dev-171400-unauthRole",
+      "StackName": "amplify-sagarchatpoc-dev-171400",
+      "StackId": "arn:aws:cloudformation:eu-west-2:553150330102:stack/amplify-sagarchatpoc-dev-171400/db41f5c0-1877-11eb-9171-0296bc619646",
+      "AmplifyAppId": "d298hdm43ua6th"
+    },
+    "categories": {
+      "auth": {
+        "sagarchatpoc5eebcfa6": {}
+      }
+    }
+  }
+}
