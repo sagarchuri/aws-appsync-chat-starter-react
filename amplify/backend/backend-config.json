@@ -1,6 +1,6 @@
 {
   "auth": {
-    "sagarchatpoc5eebcfa6": {
+    "sagarchate072d262": {
       "service": "Cognito",
       "providerPlugin": "awscloudformation",
       "dependsOn": [],
@@ -16,7 +16,7 @@
           "defaultAuthentication": {
             "authenticationType": "AMAZON_COGNITO_USER_POOLS",
             "userPoolConfig": {
-              "userPoolId": "authsagarchatpoc5eebcfa6"
+              "userPoolId": "authsagarchate072d262"
             }
           },
           "additionalAuthenticationProviders": []
@@ -25,7 +25,7 @@
     }
   },
   "storage": {
-    "chatAssets": {
+    "chatreact": {
       "service": "S3",
       "providerPlugin": "awscloudformation"
     }
