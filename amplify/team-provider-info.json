@@ -1,19 +1,19 @@
 {
   "dev": {
     "awscloudformation": {
-      "AuthRoleName": "amplify-sagarchat-dev-115853-authRole",
-      "UnauthRoleArn": "arn:aws:iam::553150330102:role/amplify-sagarchat-dev-115853-unauthRole",
-      "AuthRoleArn": "arn:aws:iam::553150330102:role/amplify-sagarchat-dev-115853-authRole",
+      "AuthRoleName": "amplify-awsappsyncchatstarte-dev-94818-authRole",
+      "UnauthRoleArn": "arn:aws:iam::553150330102:role/amplify-awsappsyncchatstarte-dev-94818-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::553150330102:role/amplify-awsappsyncchatstarte-dev-94818-authRole",
       "Region": "eu-west-2",
-      "DeploymentBucketName": "amplify-sagarchat-dev-115853-deployment",
-      "UnauthRoleName": "amplify-sagarchat-dev-115853-unauthRole",
-      "StackName": "amplify-sagarchat-dev-115853",
-      "StackId": "arn:aws:cloudformation:eu-west-2:553150330102:stack/amplify-sagarchat-dev-115853/1fb5bbd0-19de-11eb-b1fb-0af188dff7ac",
-      "AmplifyAppId": "d2e4yzmocxexq6"
+      "DeploymentBucketName": "amplify-awsappsyncchatstarte-dev-94818-deployment",
+      "UnauthRoleName": "amplify-awsappsyncchatstarte-dev-94818-unauthRole",
+      "StackName": "amplify-awsappsyncchatstarte-dev-94818",
+      "StackId": "arn:aws:cloudformation:eu-west-2:553150330102:stack/amplify-awsappsyncchatstarte-dev-94818/0bbbd300-1a95-11eb-9d3d-06c70b748ee0",
+      "AmplifyAppId": "drl40bguk3e20"
     },
     "categories": {
       "auth": {
-        "sagarchate072d262": {}
+        "awsappsyncchatstarte0d38cf53": {}
       }
     }
   }

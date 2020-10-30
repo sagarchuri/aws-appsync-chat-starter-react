@@ -1,8 +1,8 @@
 {
-    "identityPoolName": "sagarchate072d262_identitypool_e072d262",
+    "identityPoolName": "awsappsyncchatstarte0d38cf53_identitypool_0d38cf53",
     "allowUnauthenticatedIdentities": false,
-    "resourceNameTruncated": "sagarce072d262",
-    "userPoolName": "sagarchate072d262_userpool_e072d262",
+    "resourceNameTruncated": "awsapp0d38cf53",
+    "userPoolName": "awsappsyncchatstarte0d38cf53_userpool_0d38cf53",
     "autoVerifiedAttributes": [
         "email"
     ],
@@ -28,10 +28,10 @@
     "userpoolClientReadAttributes": [
         "email"
     ],
-    "userpoolClientLambdaRole": "sagarce072d262_userpoolclient_lambda_role",
+    "userpoolClientLambdaRole": "awsapp0d38cf53_userpoolclient_lambda_role",
     "userpoolClientSetAttributes": false,
-    "sharedId": "e072d262",
-    "resourceName": "sagarchate072d262",
+    "sharedId": "0d38cf53",
+    "resourceName": "awsappsyncchatstarte0d38cf53",
     "authSelections": "identityPoolAndUserPool",
     "authRoleArn": {
         "Fn::GetAtt": [

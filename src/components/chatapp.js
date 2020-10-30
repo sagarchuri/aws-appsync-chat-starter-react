@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import PropTypes from 'prop-types'
 import { Auth } from 'aws-amplify'
 import { graphql } from 'react-apollo'
-import { compose } from 'recompose'
+import {compose} from 'recompose'
 import { getUser } from '../graphql/queries'
 import {
   registerUser,

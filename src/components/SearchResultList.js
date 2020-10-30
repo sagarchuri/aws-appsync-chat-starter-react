@@ -2,7 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { searchMessages, searchUsers } from '../graphql/queries'
 import { graphql } from 'react-apollo'
-import { compose } from 'recompose'
+import {compose} from 'recompose'
 import BarLoader from 'react-spinners/BarLoader'
 import moment from 'moment'
 
