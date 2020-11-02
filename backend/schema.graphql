@@ -41,7 +41,8 @@ type S3Object {
 
 type User
   @searchable
-  @auth(rules: [{ allow: owner, identityField: "sub" }])
+  @auth(rules: [{ allow: owner, identityField: "sub" },
+                { allow: public, operations: [read] }])
   @model(
     mutations: { create: "registerUser" }
     queries: { get: "getUser" }
